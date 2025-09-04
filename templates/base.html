@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <title>{{ title or "Flask App" }}</title>
+    <link rel="stylesheet" href="/static/style.css">
+  </head>
+  <body>
+    <h1>{{ title or "Flask App" }}</h1>
+    {% block content %}{% endblock %}
+  </body>
+</html>
